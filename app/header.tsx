@@ -65,7 +65,7 @@ export default function Header() {
             Research
           </p>
           <p className="text-md font-thin px-4 hover:text-white hover:border-b-2 hover:border-white cursor-pointer">
-            E-Board
+            Team
           </p>
         </div>
       </div>
