@@ -5,7 +5,19 @@ export default function Event() {
   const takeToEvent = (link: string) => {
     window.open(link, "_blank");
   };
-  const EventCard = ({ date, time, title, description, link }) => (
+  const EventCard = ({
+    date,
+    time,
+    title,
+    description,
+    link,
+  }: {
+    date: any;
+    time: any;
+    title: any;
+    description: any;
+    link: any;
+  }) => (
     <div className="text-white p-6 w-full flex space-x-10 lg:space-x-0 flex-row justify-between items-start my-15 z-10">
       <div className="w-4/12 text-white flex flex-col items-start lg:items-center">
         <p className="mb-4 lg:text-3xl font-medium text-white">{date}</p>

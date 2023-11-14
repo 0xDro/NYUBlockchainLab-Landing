@@ -1,10 +1,6 @@
 "use client";
-
-import Image from "next/image";
 import Header from "./header";
-import SectionOne from "./sectionOne";
-import Divider from "./divider";
-import Mission from "./mission";
+import SectionOne from "../pages/sectionOne";
 import Event from "./events";
 import Footer from "./footer";
 import { Element } from "react-scroll";
