@@ -19,13 +19,13 @@ export default function Event() {
     link: any;
   }) => (
     <div className="text-white p-6 w-full flex space-x-10 lg:space-x-0 flex-row justify-between items-start my-15 z-10">
-      <div className="w-4/12 text-white flex flex-col items-start lg:items-center">
-        <p className="mb-4 lg:text-3xl font-medium text-white">{date}</p>
+      <div className="w-4/12 text-white flex flex-col items-start lg:items-start">
+        <p className="mb-4 lg:text-2xl font-medium text-white">{date}</p>
 
         <p className="mb-4 font-light text-white">{time}</p>
         <button
           onClick={() => takeToEvent(link)}
-          className="lg:rounded-[36px] rounded-2xl lg:px-0 px-10 flex place-content-center bg-white lg:py-5 font-medium lg:text-xl text-black w-7/12 hover:bg-black hover:text-white hover:border-white hover:border"
+          className="lg:rounded-[36px] lg:w-1/2 rounded-2xl lg:px-0 px-10 flex place-content-center bg-white lg:py-4 font-medium lg:text-lg text-black w-7/12 hover:bg-black hover:text-white hover:border-white hover:border"
         >
           RSVP here!
         </button>
@@ -59,7 +59,7 @@ export default function Event() {
         </div>
       </div>
       <Element name="events1">
-        <div className="flex flex-col lg:space-y-12 space-y-6 w-full justify-start items-center">
+        <div className="flex flex-col lg:space-y-24  w-full justify-start items-center">
           <EventCard
             date="Thursday, November 16th"
             time="12:00PM, RSVP to view location!"
@@ -72,7 +72,7 @@ export default function Event() {
             time="4:30PM, RSVP to view location!"
             title="The Graph Workshop and Hackathon"
             description="Learn, hack, and grow with Web3. Join contributors of The Graph ecosystem for a one day on-campus event filled with talks, swag, and prizes."
-            link="https://partiful.com/e/p6rNbjEonT6JhCii4fux"
+            link="https://www.eventbrite.hk/e/the-graph-on-campus-nyu-tickets-739396764627?aff=oddtdtcreator"
           />
         </div>
       </Element>

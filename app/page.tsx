@@ -3,6 +3,9 @@ import Header from "./header";
 import SectionOne from "../pages/sectionOne";
 import Event from "./events";
 import Footer from "./footer";
+import Mission from "./mission";
+import Team from "./team";
+import Info from "./info";
 import { Element } from "react-scroll";
 
 export default function Home() {
@@ -19,6 +22,17 @@ export default function Home() {
           </div>
           <SectionOne />
           <Event />
+          <Team />
+          {/* <Info /> */}
+          <Mission />
+
+          <div className="absolute bottom-0 left-0 right-0 z-0">
+            <img
+              src="/home7.png"
+              alt="Background Image"
+              className="w-full"
+            ></img>
+          </div>
           <Footer />
         </div>
       </main>
