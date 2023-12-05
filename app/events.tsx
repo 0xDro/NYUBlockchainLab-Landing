@@ -61,19 +61,22 @@ export default function Event() {
       <Element name="events1">
         <div className="flex flex-col lg:space-y-24  w-full justify-start items-center">
           <EventCard
-            date="Thursday, November 16th"
+            date="Tuesday, December 5th"
             time="12:00PM, RSVP to view location!"
-            title="How to Apply & Succeed at Alliance DAO"
-            description="Alliance DAO is the leading crypto accelerator & founder community. Join us to hear more on what it takes to build a good Web3 company. Don't miss this chance to lay the groundwork for your Web3 startup journey!"
-            link="https://partiful.com/e/p6rNbjEonT6JhCii4fux"
+            title="Nomad Capital Workshop"
+            description="Topic: Fragmented Liquidity in a Decentralized Finance World.
+Speaking from Nomad Capital is Ricky Li.
+
+Ricky Li is a managing partner of Nomad Capital, Co-founder of Altonomy, & a guest lecturer at NYU & RPI, where he aims to educate and raise awareness of blockchain technology."
+            link="https://partiful.com/e/cDCgQCt6C9tG0GEnxtqM"
           />
-          <EventCard
+          {/* <EventCard
             date="Thursday, October 26th"
             time="4:30PM, RSVP to view location!"
             title="The Graph Workshop and Hackathon"
             description="Learn, hack, and grow with Web3. Join contributors of The Graph ecosystem for a one day on-campus event filled with talks, swag, and prizes."
             link="https://www.eventbrite.hk/e/the-graph-on-campus-nyu-tickets-739396764627?aff=oddtdtcreator"
-          />
+          /> */}
         </div>
       </Element>
     </>
